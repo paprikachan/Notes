@@ -1,4 +1,3 @@
-
 1. 开始
 \documentclass[11pt]{article}
 \begin{document}
