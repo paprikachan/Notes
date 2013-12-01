@@ -16,6 +16,15 @@
     \date{\today}
     \maketitle
 
+3. 章节
+
+***
+    \section{...}
+    \subsection{...}
+    \paragraph{...}
+    \part{report style}
+    \chapter{book style}
+    
 3. 数学公式
 
 ***
