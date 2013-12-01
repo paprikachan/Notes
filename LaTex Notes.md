@@ -1,23 +1,36 @@
 1. 开始
-\documentclass[11pt]{article}
-\begin{document}
 
-\end{document}
+    \documentclass[11pt]{article}
+    
+    \begin{document}
+    
+    ...
+    
+    \end{document}
 
 2. 标题
+
 \title{...}
 \author{...}
 \date{\today}
 \maketitle
 
 3. 数学公式
+
 $$ 2x^{34} $$
+
 $$ x^33 $$
+
 $$ x_2 $$
+
 $$ x_y $$
+
 $$ \pi $$
+
 $$ \alpha $$
+
 $$\beta $$
+
 $\beta$
 $$ y=\sin{x} $$
 $$ \log_5x{x} + \log_x + \ln_x $$
