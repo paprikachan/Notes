@@ -1,3 +1,5 @@
+CS 61B L21: Hash Tables
+
 ##Hash Table to store English Words in Dictionary
 
 ###Hash Table
@@ -59,8 +61,28 @@ a reference into hashcode, game board => do not change the hash code
     
     Ideal: Map each key to a random bucket
     
+### Bad compression functions:
+
+    suppose keys are ints,
+    hashCode(i) = i.
+    compression fn h(hashCode) = hashCode mod N.
+    N  = 10,000 buckets
     
+    Suppose keys are divisible by 4
+    h() is divisible by 4 
+    => 
+    three quarters of buckets are never used!
     
+    Same compression fn better if N is prime.
+    
+    Better:
+    h(hashCode) = ((a*hashCode + b) mod p) mode N
+    a, b, p : positive integers
+    p is large prime
+    p >> N
+    mod p => scrabling bits
+    
+    Now, N(buckets) dosen't need to be prime.
     
     
     
